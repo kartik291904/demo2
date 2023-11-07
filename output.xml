@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.9.6 on darwin)" generated="20231016 18:30:21.764" rpa="false" schemaversion="4">
+<suite id="s1" name="pythonProject1" source="/Users/kavyavijay/PycharmProjects/pythonProject1">
+<suite id="s1-s1" name="File" source="/Users/kavyavijay/PycharmProjects/pythonProject1/file.robot">
+<test id="s1-s1-t1" name="TC1" line="9">
+<kw name="login">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>https://robotframework.org/Selenium2Library/Selenium2Library.html</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231016 18:30:22.039" level="INFO">Opening browser 'Chrome' to base url 'https://robotframework.org/Selenium2Library/Selenium2Library.html'.</msg>
+<status status="PASS" starttime="20231016 18:30:22.038" endtime="20231016 18:30:24.852"/>
+</kw>
+<status status="PASS" starttime="20231016 18:30:22.038" endtime="20231016 18:30:24.852"/>
+</kw>
+<status status="PASS" starttime="20231016 18:30:22.037" endtime="20231016 18:30:24.853"/>
+</test>
+<status status="PASS" starttime="20231016 18:30:21.793" endtime="20231016 18:30:24.854"/>
+</suite>
+<status status="PASS" starttime="20231016 18:30:21.766" endtime="20231016 18:30:24.855"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="pythonProject1">pythonProject1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="File">pythonProject1.File</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
